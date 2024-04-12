@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: #262626;
+    color: aquamarine;
+    
+}
+.container h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+.dice{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.container p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.box{
+    height: 400px;
+    width: 600px;
+    background-color: #262626;
+    margin-left: 450px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
